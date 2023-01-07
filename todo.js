@@ -12,6 +12,7 @@ function addelement() {
         localStorage.setItem("elements", JSON.stringify(elements));
         display();
     }
+    document.querySelector(".addtxt").value = "";
 }
 function display() {
     document.querySelector(".list").innerHTML = "";
